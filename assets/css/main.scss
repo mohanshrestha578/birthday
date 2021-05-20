@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black-color: black;
+    --semi-black: rgb(53, 53, 53);
+    --semi-white: rgb(216, 216, 216);
+    --gray-color: gray;
+    --white-color: white;
+    --blood-red: rgb(44, 0, 0);    
+}
+
+ol li,
+ul li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+
+    &:hover {
+        color: black;
+    }
+}
+
+.section {
+    background-image: url(https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?cs=srgb&dl=pexels-philippe-donn-1114690.jpg&fm=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: grid;
+    place-items: center;
+}
+
+.glassglow {
+    background: transparent;
+    color: white;
+    min-height: 400px;
+    width: 60%;
+    padding: 3%;
+    border-radius: 2%;
+    box-shadow: 0 0 12px white;
+    backdrop-filter: blur(10px);
+
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width:600px) {
+    .glassglow {
+        min-height: 80%;
+        width: 90%;
+    }
+}
+
+.mini-glassglow {
+    background: transparent;
+    color: white;
+    // min-height: 400px;
+    width: 100%;
+    padding: 1% 50px;
+    margin: 3%;
+    border-radius: 2%;
+    box-shadow: 0 0 5px blue;
+    backdrop-filter: blur(10px);
+    white-space: nowrap;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.dear-love {
+    font-family: 'dear-love';
+}
+
+.love-crush {
+    font-family: 'love-crush';
+    color: var(--blood-red);
+    text-shadow: 0 0 10px white;
+}
+
+.lovely-melody {
+    font-family: 'lovely-melody';
+}
+
+.youth-touch {
+    font-family: 'youth-touch';
+}
+
+.f-25 {
+    font-size: 225%;
+}
+
+.f-30 {
+    font-size: 230%;
+}
+.f-35 {
+    font-size: 235%;
+}
+.f-40 {
+    font-size: 240%;
+}
+.f-45 {
+    font-size: 245%;
+}
+.f-50 {
+    font-size: 250%;
+}
+.f-55 {
+    font-size: 255%;
+}
+.f-60 {
+    font-size: 260%;
+}
+.f-65 {
+    font-size: 255%;
+}
+.f-70 {
+    font-size: 260%;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+.ls-2 {
+    letter-spacing: 2px;
+}
+.ls-3 {
+    letter-spacing: 3px;
+}
+.ls-4 {
+    letter-spacing: 4px;
+}
+.ls-5 {
+    letter-spacing: 5px;
+}
+
+.ws-1 {
+    word-spacing: 1px;
+}
+.ws-2 {
+    word-spacing: 2px;
+}
+.ws-3 {
+    word-spacing: 3px;
+}
+.ws-4 {
+    word-spacing: 4px;
+}
+.ws-5 {
+    word-spacing: 5px;
+}
+
+.bestThing {
+    background: url('https://images.pexels.com/photos/386018/pexels-photo-386018.jpeg?cs=srgb&dl=pexels-nubia-navarro-%28nubikini%29-386018.jpg&fm=jpg');
+    background-size: contain;
+}
+
+.after_marriage {
+    background: url('https://images.pexels.com/photos/1535907/pexels-photo-1535907.jpeg?cs=srgb&dl=pexels-karyme-fran%C3%A7a-1535907.jpg&fm=jpg');
+    background-size: contain;
+    background-position: center center;
+
+    p {
+        color: blue;
+    }
+}
+
+.success {
+    background: url('../images/success3.jpg');
+    background-size: cover;
+    background-position: left top;
+}
+
+.supportive {
+    background: url('../images/support.jpg');
+    background-size: contain;
+}
+
+.dream__girl {
+    background: url('../images/dream.jpg');
+    background-size: fit-content;
+}
+
+.bestest__gift {
+    background: url('../images/gift.jpg');
+    background-size: contain;
+}
+
+.cry {
+    background: url('../images/cry.jpg');
+}
+
+.strong__girl {
+    background: url('../images/strong.jpg');
+    background-size: contain;
+}
+
+.day__one {
+    background: url('../images/dayone.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stupid {
+    background: url('../images/crazy.jpg');
+}
+
+.guess__dates {
+    background: url('../images/guess.jpg');
+}
+
+.guess {
+    background: url('../images/guess.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}
+
+.distance {
+    background: url('../images/late.jpg');
+    // background-size: contain;
+}
+
+.special__dates {
+    background: url('../images/special.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.happy__birthday {
+    background: url('../images/chocolate.jpg');
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
